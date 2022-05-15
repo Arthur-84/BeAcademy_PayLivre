@@ -97,6 +97,28 @@ git status
 
 Exibe o status de mudança e alterações que foram realizadas.
 
+## *log*
+
+~~Comando
+
+[1]
+
+git log
+
+[2]
+
+git log --online
+
+~~Objetvo
+
+[1]
+
+Exibe o histórico de mudanças em forma ordenada que foram realizadas.
+
+[2]
+
+Exibe o histórico de mudanças em forma ordenada que foram realizadas. Resumindo em uma linha.
+
 ## *add*
 
 ~~Comando
@@ -128,6 +150,16 @@ git restore
 ~~Objetivo
 
 Restaurar o projeto ao ponto anterior.
+
+## *revert*
+
+~~Comando
+
+git revert
+
+~~Objetivo
+
+Restaurar o projeto ao ponto anterior selecionado. Nome deve ser adicionado após o comando. Havendo espaços, colocar entre aspas duplas.
 
 ## *commit*
 
